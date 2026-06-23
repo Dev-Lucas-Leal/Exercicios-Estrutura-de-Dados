@@ -16,7 +16,7 @@ população dos 5 setores habitáveis. O programa compila sem erros, mas produz 
 e às vezes trava.
 
 TAREFA 1: O Bug está dentro da condição do For, sendo a Correção for(i=0;i < TAM;i++) não a escrita na questão (i <= TAM). O 
-          Vetor é acessado em 10 posições no meu caso mas, o índice máximo permitido sem ocorrer o bug é  4 , pois o vetor possui
+          Vetor é acessado em 10 posições no meu caso. O índice máximo permitido sem ocorrer o bug é  4 , pois o vetor possui
           5 elementos mas, o primeiro índice do vetor sempre será 0.Quando coloca (i == TAM) o programa é executado  e acessa uma 
           região da memória que não pertence ao vetor população , isso causa um comportamento indefinido.
 
